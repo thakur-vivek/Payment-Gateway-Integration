@@ -1,46 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
-/*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:500,600");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -150,15 +108,15 @@ button:focus {
 ============================================================================================ */
 .primary_btn {
   display: inline-block;
-  background: #60bc0f;
+  background: #bc630f;
   padding: 0px 50px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 48px;
-  border: 1px solid #60bc0f;
-  border-radius: 0px;
+  border: 1px solid #bc630f;
+  border-radius: 5px;
   outline: none !important;
   box-shadow: none !important;
   text-align: center;
@@ -214,7 +172,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #60bc0f; }
+        color: #bc630f; }
 		
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
@@ -262,7 +220,7 @@ button:focus {
             transition: all 0.4s linear; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
               line-height: 45px;
-              color: #222222;
+              color: #3a3434be;
               padding: 0px 30px;
               transition: all 150ms linear;
               display: block;
@@ -271,7 +229,7 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #60bc0f;
+              background: #bc630f;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
