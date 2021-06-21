@@ -328,3 +328,18 @@ button:focus {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+.navbar-brand:hover{
+  background: ;
+  padding: 5px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+textarea.form-control{
+  resize: none;
+  height: 210px;
+  overflow: auto;
+}
